@@ -1,0 +1,26 @@
+<site id="w123" name="website 1" description="Lorem ipsum">
+  <views>
+    <view id="p123" name="page 1">
+      <description>Lorem ipsum</description>
+      <component ref="wg123"/>
+      <component ref="wg1234"/>
+    </view>
+    <view id="p234" name="page 2">
+      <description>Lorem ipsum</description>
+      <component ref="wg234"/>
+      <component ref="wg2345"/>
+      <component ref="wg123"/>
+    </view>
+  </views>
+  <components>
+    <component id="wg123" type="TEXT">
+      <text>Lorem ipsum</text>
+    </component>
+    <component id="wg1234" type="IMG"
+      src="image-1234.jpg"/>
+    <component id="wg234" type="YOUTUBE"
+      url="youtube.com/1234"/>
+    <component id="wg2345" type="BUTTON"
+      label="Click Me"/>
+  </components>
+</site>
